@@ -1,18 +1,36 @@
-## Getting Started
+# 🧾 Actividad: Gestión de Ciudades con Colecciones Dinámicas en Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 🎯 Objetivo
 
-## Folder Structure
+Crear un programa en Java que permita gestionar una lista de **ciudades** utilizando una colección dinámica con las siguientes funcionalidades:
 
-The workspace contains two folders by default, where:
+## ✅ Requisitos del programa
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+1. **Agregar una ciudad**:
+   - El usuario podrá introducir el nombre de una ciudad.
+   - Si la ciudad **ya existe**, se mostrará un **mensaje de error**.
+   - No se permiten duplicados.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+2. **Mostrar todas las ciudades**:
+   - Se mostrarán todas las ciudades almacenadas en la colección.
+   - Si la colección está vacía, se indicará al usuario.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+3. **Buscar una ciudad**:
+   - El usuario podrá introducir el nombre de una ciudad a buscar.
+   - Si la ciudad **existe**, se notificará al usuario.
+   - Si **no existe**, se mostrará un mensaje de error.
 
-## Dependency Management
+4. **Eliminar una ciudad**:
+   - El usuario podrá eliminar una ciudad ingresando su nombre.
+   - Si la ciudad **está en la lista**, se eliminará correctamente.
+   - Si **no existe**, se mostrará un mensaje de error.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+5. **Salir del programa**:
+   - Finalizará la ejecución del programa.
+
+## 💡 Recomendaciones técnicas
+
+- Utilizar la clase `Scanner` para capturar entradas del usuario.
+- Implementar un menú interactivo con bucle `while`.
+- Asegurar una buena experiencia de usuario con mensajes claros y validaciones.
+
